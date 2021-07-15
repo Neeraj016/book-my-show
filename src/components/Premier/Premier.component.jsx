@@ -11,6 +11,7 @@ export const Premier = () => {
     slidesToShow: 5,
     slidesToScroll: 2,
     InitialSlide: 0,
+  
     responsive: [
       {
         breakpoints: 1024,
@@ -18,6 +19,7 @@ export const Premier = () => {
           slidesToShow: 3,
           slidesToScroll: 2,
           infinite: true,
+          
         },
       },
       {

@@ -14,8 +14,8 @@ const HeroCarousal = () => {
         slidesToShow:1, 
         infinite: true, 
         slidesToScroll: 1,  
-        NextArrow: <NextArrow/>,
-        PrevArrow: <PrevArrow/>,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
     }
 
     const settings = {

@@ -1,6 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
 
+import { NextArrow } from "../HeroCarousal/Arrows.component";
+import { PrevArrow } from "../HeroCarousal/Arrows.component";
+
+
 const EntertainmentCard = (props) => {
   return (
     <>
@@ -33,6 +37,9 @@ const EntertainmentCardSlider = () => {
     slidesToShow: 4,
     slidesToScroll: 4,
     InitialSlide: 0,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,      
+    
     responsive: [
       {
         breakpoints: 1024,
@@ -40,6 +47,8 @@ const EntertainmentCardSlider = () => {
           slidesToShow: 3,
           slidesToScroll: 2,
           infinite: true,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
         },
       },
       {
@@ -48,6 +57,8 @@ const EntertainmentCardSlider = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           InitialSlide: 1,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
         },
       },
       {
@@ -55,6 +66,8 @@ const EntertainmentCardSlider = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          nextArrow: <NextArrow />,
+          prevArrow: <PrevArrow />,
         },
       },
     ],
