@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar/navbar.components";
-import HeroCarousal from "../components/HeroCarousal/HeroCarousal.components";
+import HeroCarousal from "../components/HeroCarousel/HeroCarousel.components";
 
 
 

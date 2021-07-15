@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 
-import { NextArrow } from "../HeroCarousal/Arrows.component";
-import { PrevArrow } from "../HeroCarousal/Arrows.component";
+import { NextArrow } from "../HeroCarousel/Arrows.component";
+import { PrevArrow } from "../HeroCarousel/Arrows.component";
 
 
 const EntertainmentCard = (props) => {
